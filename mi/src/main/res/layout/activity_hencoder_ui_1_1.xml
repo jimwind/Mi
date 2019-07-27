@@ -17,6 +17,11 @@
             <com.up360.mi.view.hencoder.HistogramView
                 android:layout_width="match_parent"
                 android:layout_height="500dp" />
+
+            <com.up360.mi.view.hencoder.PieView
+                android:layout_width="match_parent"
+                android:layout_height="500dp" />
+
         </LinearLayout>
 
     </ScrollView>

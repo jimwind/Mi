@@ -13,4 +13,8 @@
     <color name="text_gray_6">#ff666666</color>
     <color name="text_gray_9">#ff999999</color> <!-- c7  -->
     <color name="black_for_picture_status">#ff151515</color>
+
+    <color name="bg_blue">#ff4a90e2</color> <!-- no  -->
+    <color name="bg_yellow">#fff5a623</color> <!-- no  -->
+    <color name="bg_red">#fffc6156</color> <!-- c3 -->
 </resources>

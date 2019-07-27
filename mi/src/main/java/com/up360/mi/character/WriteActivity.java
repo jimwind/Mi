@@ -24,8 +24,10 @@ public class WriteActivity extends BaseActivity {
             @Override
             public void onGetCharacter(CharacterSingleDetailBean character) {
                 CharacterSingleBean characterSingleBean = character.getWord();
-                mDrawFontView.initData(characterSingleBean.getStrokeData(), characterSingleBean.getMedianData(), null, false, false, false,characterSingleBean.getHandworkFlag().equals("1"));
-                mDrawFontView.setCanTouch(false);
+                if(characterSingleBean != null) {
+                    mDrawFontView.initData(characterSingleBean.getStrokeData(), characterSingleBean.getMedianData(), null, false, false, false, characterSingleBean.getHandworkFlag().equals("1"));
+                    mDrawFontView.setCanTouch(false);
+                }
             }
         });
         mRequestMode.getSingleCharacter(10458676, 317);

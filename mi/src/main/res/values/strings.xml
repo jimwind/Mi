@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Mi</string>
+    <!--权限相关提示 liangpingyy -->
+    <string name="permission_tips_location">向上网将获取你的定位权限，拒绝权限将不能获取你的当前位置</string>
+    <string name="permission_tips_sms">向上网将获取你的短信权限</string>
+    <string name="permission_tips_microphone">向上网将获取你的麦克风权限，拒绝权限将不能使用录音功能</string>
+    <string name="permission_tips_phone">向上网将获取你的手机信息权限，拒绝权限将影响你的使用</string>
+    <string name="permission_tips_contacts">向上网将获取你的联系人权限，拒绝权限将影响你的联系人功能</string>
+    <string name="permission_tips_camera">向上网将获取你的相机权限，拒绝权限将影响拍照相关功能</string>
+    <string name="permission_tips_calendar">向上网将获取你的日历权限</string>
+    <string name="permission_tips_storage">向上网将获取你的存储权限，拒绝权限将影响部分功能正常使用</string>
+    <string name="permission_tips_sensor">向上网将获取你的传感器权限</string>
+    <!--权限相关提示 liangpingyy -->
+    <!--权限相关文案 -->
+    <string name="permission_cancel">取消</string>
+    <string name="permission_tosetting">去设置</string>
+    <string name="permission_content_start">请在“<font color='#47cf5b'>设置</font>"-<font color='#47cf5b'>应用</font>-<font color='#47cf5b'>向上网</font>-<font color='#47cf5b'>权限中</font>”开启</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/round_corner_solid_ffffff_r6"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_permission_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="@string/permission_content_start"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_permission_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="34dp"
+            android:textSize="15sp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/round_corner_solid_c6c6c6_r5"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+
+
+        <Button
+            android:id="@+id/btn_permission_setting"
+            android:layout_width="0dp"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/round_corner_solid_37bb52_r5"
+            android:text="@string/permission_tosetting"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</RelativeLayout>

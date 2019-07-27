@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_gray_6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:background="#ff63a309">
+            <com.up360.mi.view.TwoSemiCircleView
+                android:id="@+id/login"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:padding="30dp"
+                android:onClick="login"
+                android:background="#ff1e90ff"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="write"
+                android:padding="30dp"
+                android:textColor="@color/white"
+                android:onClick="write"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="hencoder"
+                android:padding="30dp"
+                android:textColor="@color/white"
+                android:onClick="hencoder"/>
+            <com.up360.mi.view.SpottedLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ironman"/>
+            </com.up360.mi.view.SpottedLinearLayout>
+            <com.up360.mi.view.MiEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello Jimwind"/>
+            <com.up360.mi.view.MiView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="#00000000"/>
+        </LinearLayout>
+
+    </ScrollView>
+    <com.up360.mi.view.RoundRectTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</RelativeLayout>

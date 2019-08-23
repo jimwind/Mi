@@ -34,9 +34,13 @@ public class MainActivity extends BaseActivity implements Model.OnLoginListener 
     }
     public void hencoder(View v){
         Intent intent = new Intent(MainActivity.this, ui_1_1_activity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }
-
+    public void binder_test(View v){
+        Intent intent = new Intent(MainActivity.this, BinderTestActivity.class);
+        startActivity(intent);
+    }
     @Override
     public void onLogin() {
         tvLogin.setText("success!");

@@ -3,11 +3,7 @@ package com.up360.mi.character.bean;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-/**
- * @author liangpingyy
- * 2018/7/25 18:58
- * 请用一句话概括功能
- */
+
 public class CharacterSingleBean implements Serializable {
     private String wordName;
     private String radicals;//部首

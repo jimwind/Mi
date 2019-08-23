@@ -2,11 +2,6 @@ package com.up360.mi.character.bean;
 
 import java.io.Serializable;
 
-/**
- * @author liangpingyy
- * 2018/7/25 19:11
- * 请用一句话概括功能
- */
 public class CharacterSingleDetailBean implements Serializable {
     private CharacterSingleBean word;
     private String domain;

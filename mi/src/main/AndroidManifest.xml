@@ -36,6 +36,35 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </service>
+        <service
+            android:name=".services.MyService"
+            android:process=":remote"/>
+
+        <provider
+            android:authorities="com.up360.mi.provider"
+            android:name=".provider.BookProvider"
+            android:permission="com.up360.mi.PROVIDER"
+            android:process=":provider" />
+        <activity android:name=".activity.ProviderActivity"
+            android:screenOrientation="portrait"/>
+
+        <service android:name=".services.BookManagerService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.up360.mi.services.BookManagerService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </service>
+
+        <service android:name=".services.MessengerService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.up360.mi.services.MessengerService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
     </application>
 
 </manifest>

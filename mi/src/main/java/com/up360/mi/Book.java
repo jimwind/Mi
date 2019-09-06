@@ -38,4 +38,8 @@ public class Book implements Parcelable {
         dest.writeInt(bookId);
         dest.writeString(bookName);
     }
+    @Override
+    public String toString() {
+        return "id : " + bookId + " ,name : " + bookName;
+    }
 }
